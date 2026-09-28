@@ -1,0 +1,17 @@
+# 依存パッケージ（npm ci / npm install で再生成されるためコミットしない）
+node_modules/
+
+# npm のエラーログ
+npm-debug.log*
+
+# OS が自動生成するファイル
+.DS_Store
+Thumbs.db
+
+# エディタ設定
+.vscode/
+.idea/
+
+# アプリが書き出すデータ（volume/.gitkeep 以外は追跡しない）
+volume/*
+!volume/.gitkeep
